@@ -1,3 +1,7 @@
+import numpy as np
+import random as rm
+
+
 def k_nearest_neighbour_list_matrix(dist_matrix, k):
   # returns matrix with every node's k nearest neighbours
 
