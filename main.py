@@ -1,3 +1,7 @@
+from nntour import *
+from aux import *
+
+
 def acs4tsp(nodes, number_of_ants, q0, k_nearest, alpha, beta, number_of_iterations):
   """
   returns array with the evolution of the best tour found
